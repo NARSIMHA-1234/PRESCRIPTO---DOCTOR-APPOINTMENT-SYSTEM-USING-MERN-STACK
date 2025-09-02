@@ -112,34 +112,36 @@ A full-stack *MERN web application* that streamlines doctor appointment booking 
 
 ---
 
-## 🌐 Project Setup  
+## 🌐 Project Setup
 
-Follow these steps to set up and run the project locally:  
+To set up and run this project locally:
 
-###   
-bash
-  1️⃣ Clone the Repository:
-     git clone https://github.com/your-username/prescripto.git
-     cd prescripto
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/prescripto.git
+   cd prescripto
+   ```
 
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   cd client
+   npm install
+   ```
 
-  2️⃣ Install Dependencies:
-     npm install
-     cd client
-     npm install
-
-
-  3️⃣ Configure Environment Variables:
-     Create a .env file in the root directory and add the following:
+3. **Environment Variables**:
+   - Create a `.env` file in the root directory and add the following:
+     ```env
      MONGO_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
      STRIPE_API_KEY=your_stripe_api_key
      RAZORPAY_API_KEY=your_razorpay_api_key
+     ```
 
-
-  4️⃣ Run the Application:
-      npm run dev
-
+4. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
 ## 📦 Folder Structure
 
@@ -156,6 +158,7 @@ prescripto/
 ├── public/          # Static Files
 └── .env             # Environment Variables
 ```
+
 
 
 
